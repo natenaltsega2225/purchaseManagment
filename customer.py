@@ -142,7 +142,7 @@ def printPurchaseInfo():
 
              purchase_description = PurchaseInfoFile.readline()
              PurchaseInfoFile.close()   # close the file 
-
+            # ask the user wants to continue or exit the program 
              CHOICE = int(input('Enter 98 to continue or 99 to exit: '))
              if CHOICE == 98:
                 menuDisplay()
